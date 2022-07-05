@@ -15,3 +15,7 @@ class Ninja {
         this.health += 10;
     }
 }
+
+const ninja1 = new Ninja("Hyabusa", 15);
+ninja1.sayName();
+ninja1.showStats();
